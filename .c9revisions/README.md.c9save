@@ -1,0 +1,2 @@
+{"ts":1370629950374,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"Duplicate Word Finder\n===================\n\nThis small script searches given string for duplicate words, using regular expression,\nand returns an array of words that were duplicated as well as the count of each one.\n"]],"start1":0,"start2":0,"length1":0,"length2":215}]],"length":215}
+{"contributors":[],"silentsave":false,"ts":1370630097300,"patch":[[{"diffs":[[0,"ach one."],[-1,"\n"]],"start1":206,"start2":206,"length1":9,"length2":8}]],"length":214,"saved":false}
