@@ -19,7 +19,7 @@ class DuplicateWordFinder {
 
 	public function dupWords( $str, $remove = false ) {
 		$dups = array();
-		$regex = '/(^|\s)([.\S]{' . $this->minWordLength . ',})\b.+?\2\b/ixs';
+		$regex = '/(^|\s)([.\S]{' . $this->minWordLength . ',})\b.+?\1\2\b/ixs';
 
 		//find duplicate words with regular Expression
 		while ( preg_match_all( $regex, $str, $matches ) ) {
